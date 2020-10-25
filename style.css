@@ -24,6 +24,14 @@ p {
     border-top: 1px dotted #ccc;
 }
 
+#about-me{
+    border-top: 1px dotted #ccc;
+}
+
+#form{
+    border-top: 1px dotted #ccc;
+}
+
 .blog-post {
     border-bottom: 1px dotted #ccc;
 }
