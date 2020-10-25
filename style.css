@@ -1,0 +1,52 @@
+html{
+    background: #e3e3e3;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #9b0505;
+    background: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    
+}
+
+p {
+    line-height: 1.4em;
+}
+
+#blog {
+    border-top: 1px dotted #ccc;
+}
+
+.blog-post {
+    border-bottom: 1px dotted #ccc;
+}
+
+h2{
+    color: #002366;
+    border: 0.5rem outset #9b0505;
+    font-size: 2em;
+}
+
+a[href*="youtube"]{
+    font-style: italic;
+}
+
+span{
+    color: #18453B;
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+ul > li{
+    margin: 20px;
+}
