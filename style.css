@@ -8,12 +8,29 @@ body {
     color: #242424;
     border-top: 10px solid #9b0505;
     background: #fff;
+    overflow: auto;
 }
 
 h1 {
     font-size: 3em;
     margin: 0;
-    
+    padding: 20px;
+    text-align: left;
+
+}
+
+.sticky{
+    padding: 10px;
+    border: 2px solid black;
+    background: lightgray;
+}
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
 }
 
 p {
@@ -30,6 +47,41 @@ p {
 
 #form{
     border-top: 1px dotted #ccc;
+    
+}
+
+.flex-container{
+    display: flex;
+    border: 2px solid black;
+    padding: 10px 10px;
+
+}
+
+.flex-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container > * {
+    flex: 1;
+    min-height: 40vh;
+    margin: 0 5px;
+}
+.flex-wrapper :nth-child(2), .flex-wrapper : :nth-child(3) {
+    margin-top: 5px;
+}
+
+.flex-wrapper : :nth-child(3), .flex-container > textarea {
+    flex: 1;
+}
+
+.right{
+    margin: 5px;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    float: right;
+    background: lightslategray;
 }
 
 .blog-post {
