@@ -110,3 +110,7 @@ h3{
 ul > li{
     margin: 20px;
 }
+
+@media (max-width: 400px) {
+    
+}
