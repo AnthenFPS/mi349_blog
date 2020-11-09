@@ -112,7 +112,7 @@ ul > li{
 }
 
 @media (max-width: 400px) {
-    body{
-        background: red;
-    }
+   .flex-container{
+       background: red;
+   }
 }
