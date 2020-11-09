@@ -111,6 +111,8 @@ ul > li{
     margin: 20px;
 }
 
-@media (max-width: 400px) {
-    
+@media (max-width: 200px) {
+    #blog{
+        background: red;
+    }
 }
